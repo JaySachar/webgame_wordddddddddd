@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Load Pixi.js from CDN -->
+    <script src="https://pixijs.download/v5.3.3/pixi.min.js"></script>
+    <script>
+    let app;
+
+    window.onload = function(){
+        app = new PIXI.Application(
+            {
+                width: 200,
+                height: 250,
+                backgroundColor: 0xAAAAA
+            }
+        );
+
+        document.body.appendChild(app.view);
+    }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
